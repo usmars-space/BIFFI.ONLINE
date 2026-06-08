@@ -212,6 +212,19 @@
       100% { right: 30%; bottom: 20%; }
     }
 
+    /* ── BANNERS DE PROPAGANDA ── */
+    .ad-banner {
+      position: fixed;
+      bottom: 0;
+      width: 160px;
+      height: 600px;
+      z-index: 100;
+      overflow: hidden;
+    }
+
+    .ad-banner-left  { left: 0; }
+    .ad-banner-right { right: 0; }
+
     /* ── RESPONSIVO ── */
     @media (max-width: 768px) {
       .book {
@@ -255,6 +268,34 @@
   <div class="bee bee-8">🐝</div>
   <div class="bee bee-9">🐝</div>
   <div class="bee bee-10">🐝</div>
+
+  <!-- BANNER ESQUERDO -->
+  <div class="ad-banner ad-banner-left">
+    <script>
+      atOptions = {
+        'key' : 'ca08d750749145cc2b964ef3aff564e5',
+        'format' : 'iframe',
+        'height' : 600,
+        'width' : 160,
+        'params' : {}
+      };
+    </script>
+    <script src="https://www.highperformanceformat.com/ca08d750749145cc2b964ef3aff564e5/invoke.js"></script>
+  </div>
+
+  <!-- BANNER DIREITO -->
+  <div class="ad-banner ad-banner-right">
+    <script>
+      atOptions = {
+        'key' : 'ca08d750749145cc2b964ef3aff564e5',
+        'format' : 'iframe',
+        'height' : 600,
+        'width' : 160,
+        'params' : {}
+      };
+    </script>
+    <script src="https://www.highperformanceformat.com/ca08d750749145cc2b964ef3aff564e5/invoke.js"></script>
+  </div>
 
   <!-- LIVRO NO CENTRO -->
   <div class="book-container">
